@@ -2,8 +2,10 @@ package com.example.application.data.entity;
 
 import java.time.LocalDate;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "SAMPLE_PERSON")
 public class SamplePerson extends AbstractEntity {
 
     private String firstName;
